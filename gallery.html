@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery | Angel Academy</title>
+    <meta
+      name="description"
+      content="Explore bridal makeup looks from Angel Academy's competition gallery."
+    />
+    <link rel="icon" type="image/png" href="Assets/AngelAcademyLOgoSmall.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="index.html#home" class="brand" aria-label="Angel Academy home">
+          <img src="Assets/AngelAcademyLOgoSmall.png" alt="" />
+          <span>Angel Academy</span>
+        </a>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="index.html#home">Home</a>
+          <a href="index.html#course">Course</a>
+          <a href="index.html#workshop">Workshop</a>
+          <a href="index.html#events">Events</a>
+          <a href="gallery.html" aria-current="page">Gallery</a>
+          <a href="index.html#about">About Us</a>
+          <a href="index.html#blog">Blog</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="gallery-page">
+      <section class="container" aria-labelledby="gallery-title">
+        <div class="gallery-heading">
+          <span class="eyebrow eyebrow-alt">Angel Academy</span>
+          <h1 id="gallery-title">Our Gallery</h1>
+          <p>Explore the creativity and artistry in our bridal makeup competition.</p>
+        </div>
+
+        <div class="gallery-controls">
+          <label class="gallery-search">
+            <span>Search photos</span>
+            <input
+              id="gallery-search"
+              type="search"
+              placeholder="Search by title or tag"
+              autocomplete="off"
+            />
+          </label>
+
+          <div class="gallery-tags" role="group" aria-label="Filter photos by tag">
+            <button class="gallery-tag is-active" type="button" data-tag="all" aria-pressed="true">
+              All photos
+            </button>
+            <button class="gallery-tag" type="button" data-tag="bridal-makeup" aria-pressed="false">
+              Bridal Makeup
+            </button>
+            <button class="gallery-tag" type="button" data-tag="beautician" aria-pressed="false">
+              Beautician
+            </button>
+            <button class="gallery-tag" type="button" data-tag="competition" aria-pressed="false">
+              Competition
+            </button>
+            <button class="gallery-tag" type="button" data-tag="old" aria-pressed="false">
+              Old
+            </button>
+          </div>
+        </div>
+
+        <p class="gallery-count" id="gallery-count" aria-live="polite"></p>
+
+        <div class="gallery-photos" id="gallery-photos">
+          <figure class="gallery-photo" data-title="Bridal Makeup Competition - Look 01" data-tags="beautician bridal-makeup competition old">
+            <img src="Assets/Gallery/Bridal_Makeup_Comp_JanY22%20(1).png" alt="Bridal makeup competition look 1" />
+            <figcaption>Bridal Makeup Competition - Look 01</figcaption>
+          </figure>
+          <figure class="gallery-photo" data-title="Bridal Makeup Competition - Look 02" data-tags="beautician bridal-makeup competition old">
+            <img src="Assets/Gallery/Bridal_Makeup_Comp_JanY22%20(2).png" alt="Bridal makeup competition look 2" />
+            <figcaption>Bridal Makeup Competition - Look 02</figcaption>
+          </figure>
+          <figure class="gallery-photo" data-title="Bridal Makeup Competition - Look 03" data-tags="  beautician bridal-makeup competition old">
+            <img src="Assets/Gallery/Bridal_Makeup_Comp_JanY22%20(3).png" alt="Bridal makeup competition look 3" />
+            <figcaption>Bridal Makeup Competition - Look 03</figcaption>
+          </figure>
+          <figure class="gallery-photo" data-title="Bridal Makeup Competition - Look 04" data-tags="beautician  bridal-makeupcompetition old">
+            <img src="Assets/Gallery/Bridal_Makeup_Comp_JanY22%20(4).png" alt="Bridal makeup competition look 4" />
+            <figcaption>Bridal Makeup Competition - Look 04</figcaption>
+          </figure>
+          <figure class="gallery-photo" data-title="Bridal Makeup Competition - Look 05" data-tags="bridal-makeup competition old">
+            <img src="Assets/Gallery/Bridal_Makeup_Comp_JanY22%20(5).png" alt="Bridal makeup competition look 5" />
+            <figcaption>Bridal Makeup Competition - Look 05</figcaption>
+          </figure>
+          <figure class="gallery-photo" data-title="Bridal Makeup Competition - Look 06" data-tags="bridal-makeup competition old">
+            <img src="Assets/Gallery/Bridal_Makeup_Comp_JanY22%20(6).png" alt="Bridal makeup competition look 6" />
+            <figcaption>Bridal Makeup Competition - Look 06</figcaption>
+          </figure>
+          <figure class="gallery-photo" data-title="Bridal Makeup Competition - Look 07" data-tags="bridal-makeup competition old">
+            <img src="Assets/Gallery/Bridal_Makeup_Comp_JanY22%20(7).png" alt="Bridal makeup competition look 7" />
+            <figcaption>Bridal Makeup Competition - Look 07</figcaption>
+          </figure>
+          <figure class="gallery-photo" data-title="Bridal Makeup Competition - Look 08" data-tags="bridal-makeup competition old">
+            <img src="Assets/Gallery/Bridal_Makeup_Comp_JanY22%20(8).png" alt="Bridal makeup competition look 8" />
+            <figcaption>Bridal Makeup Competition - Look 08</figcaption>
+          </figure>
+          <figure class="gallery-photo" data-title="Bridal Makeup Competition - Look 09" data-tags="beautician bridal-makeup competition old">
+            <img src="Assets/Gallery/Bridal_Makeup_Comp_JanY22%20(9).png" alt="Bridal makeup competition look 9" />
+            <figcaption>Bridal Makeup Competition - Look 09</figcaption>
+          </figure>
+          <figure class="gallery-photo" data-title="Bridal Makeup Competition - Look 10" data-tags="beautician bridal-makeup competition old">
+            <img src="Assets/Gallery/Bridal_Makeup_Comp_JanY22%20(10).png" alt="Bridal makeup competition look 10" />
+            <figcaption>Bridal Makeup Competition - Look 10</figcaption>
+          </figure>
+          <figure class="gallery-photo" data-title="Bridal Makeup Competition - Look 11" data-tags="beautician bridal-makeup competition old">
+            <img src="Assets/Gallery/Bridal_Makeup_Comp_JanY22%20(11).png" alt="Bridal makeup competition look 11" />
+            <figcaption>Bridal Makeup Competition - Look 11</figcaption>
+          </figure>
+          <figure class="gallery-photo" data-title="Bridal Makeup Competition - Look 12" data-tags="beautician bridal-makeup competition old">
+            <img src="Assets/Gallery/Bridal_Makeup_Comp_JanY22%20(12).png" alt="Bridal makeup competition look 12" />
+            <figcaption>Bridal Makeup Competition - Look 12</figcaption>
+          </figure>
+          <figure class="gallery-photo" data-title="Bridal Makeup Competition - Look 13" data-tags="beautician bridal-makeup competition old">
+            <img src="Assets/Gallery/Bridal_Makeup_Comp_JanY22%20(13).png" alt="Bridal makeup competition look 13" />
+            <figcaption>Bridal Makeup Competition - Look 13</figcaption>
+          </figure>
+          <figure class="gallery-photo" data-title="Bridal Makeup Competition - Look 14" data-tags="beautician bridal-makeup competition old">
+            <img src="Assets/Gallery/Bridal_Makeup_Comp_JanY22%20(14).png" alt="Bridal makeup competition look 14" />
+            <figcaption>Bridal Makeup Competition - Look 14</figcaption>
+          </figure>
+          <figure class="gallery-photo" data-title="Bridal Makeup Competition - Look 15" data-tags="beautician bridal-makeup competition old">
+            <img src="Assets/Gallery/Bridal_Makeup_Comp_JanY22%20(15).png" alt="Bridal makeup competition look 15" />
+            <figcaption>Bridal Makeup Competition - Look 15</figcaption>
+          </figure>
+          <figure class="gallery-photo" data-title="Bridal Makeup Competition - Look 16" data-tags="beautician bridal-makeup competition old">
+            <img src="Assets/Gallery/Bridal_Makeup_Comp_JanY22%20(16).png" alt="Bridal makeup competition look 16" />
+            <figcaption>Bridal Makeup Competition - Look 16</figcaption>
+          </figure>
+          <figure class="gallery-photo" data-title="Bridal Makeup Competition - Look 17" data-tags="beautician bridal-makeup competition old">
+            <img src="Assets/Gallery/Bridal_Makeup_Comp_JanY22%20(17).png" alt="Bridal makeup competition look 17" />
+            <figcaption>Bridal Makeup Competition - Look 17</figcaption>
+          </figure>
+          <figure class="gallery-photo" data-title="Bridal Makeup Competition - Look 18" data-tags="beautician bridal-makeup competition old">
+            <img src="Assets/Gallery/Bridal_Makeup_Comp_JanY22%20(18).png" alt="Bridal makeup competition look 18" />
+            <figcaption>Bridal Makeup Competition - Look 18</figcaption>
+          </figure>
+          <figure class="gallery-photo" data-title="Bridal Makeup Competition - Look 19" data-tags="beautician bridal-makeup competition old">
+            <img src="Assets/Gallery/Bridal_Makeup_Comp_JanY22%20(19).png" alt="Bridal makeup competition look 19" />
+            <figcaption>Bridal Makeup Competition - Look 19</figcaption>
+          </figure>
+          <figure class="gallery-photo" data-title="Bridal Makeup Competition - Look 20" data-tags="beautician bridal-makeup competition old">
+            <img src="Assets/Gallery/Bridal_Makeup_Comp_JanY22%20(20).png" alt="Bridal makeup competition look 20" />
+            <figcaption>Bridal Makeup Competition - Look 20</figcaption>
+          </figure>
+        </div>
+        <p class="gallery-empty" id="gallery-empty" hidden>No photos match your search.</p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <div class="footer-brand">
+          <img src="Assets/AngelAcademyLOgoSmall.png" alt="" />
+          <p>Angel Academy</p>
+        </div>
+        <p class="copyright">© 2026 Angel Academy</p>
+      </div>
+    </footer>
+
+    <script>
+      const searchInput = document.querySelector("#gallery-search");
+      const tagButtons = document.querySelectorAll(".gallery-tag");
+      const gallery = document.querySelector("#gallery-photos");
+      const photos = [...gallery.querySelectorAll(".gallery-photo")];
+      const count = document.querySelector("#gallery-count");
+      const emptyMessage = document.querySelector("#gallery-empty");
+      let activeTag = "all";
+
+      const getPhotoNumber = (photo) => {
+        const match = photo.querySelector("img").getAttribute("src").match(/\((\d+)\)\.png$/);
+        return match ? Number(match[1]) : 0;
+      };
+
+      photos
+        .sort((first, second) => getPhotoNumber(second) - getPhotoNumber(first))
+        .forEach((photo) => gallery.append(photo));
+
+      function filterPhotos() {
+        const query = searchInput.value.trim().toLowerCase();
+        let visibleCount = 0;
+
+        photos.forEach((photo) => {
+          const matchesTag =
+            activeTag === "all" || photo.dataset.tags.split(" ").includes(activeTag);
+          const matchesSearch = `${photo.dataset.title} ${photo.dataset.tags}`
+            .toLowerCase()
+            .includes(query);
+          const isVisible = matchesTag && matchesSearch;
+
+          photo.hidden = !isVisible;
+          if (isVisible) visibleCount += 1;
+        });
+
+        count.textContent = `Showing ${visibleCount} of ${photos.length} photos`;
+        emptyMessage.hidden = visibleCount > 0;
+      }
+
+      searchInput.addEventListener("input", filterPhotos);
+      tagButtons.forEach((button) => {
+        button.addEventListener("click", () => {
+          activeTag = button.dataset.tag;
+          tagButtons.forEach((tagButton) => {
+            const isActive = tagButton === button;
+            tagButton.classList.toggle("is-active", isActive);
+            tagButton.setAttribute("aria-pressed", String(isActive));
+          });
+          filterPhotos();
+        });
+      });
+
+      filterPhotos();
+    </script>
+  </body>
+</html>
